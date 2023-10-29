@@ -144,3 +144,15 @@ body{
     list-style-type: none;
     
 }
+
+#contact a {
+    color: whitesmoke;
+}
+
+#contact li :hover {
+    color:#1d151b;
+}
+
+#contact a :hover {
+    color:#1d151b;
+}
