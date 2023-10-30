@@ -79,8 +79,8 @@ body{
  #about p {
     position: absolute;
     display: inline-block;
-    text-wrap: wrap;
-    margin-top: 0px;
+    overflow-y: scroll;
+    max-height: 200px;
     padding-top: 0px;
     padding-left: 16px;
     color: whitesmoke;
@@ -164,4 +164,33 @@ body{
 
 #contact li :hover {
     color:#1d151b;
+}
+
+@media screen and (max-width: 768px) {
+    
+    header h1 {
+        position:absolute;
+        bottom: 25px;
+        left: 50px;
+        padding: 15px;
+        color: whitesmoke;
+    }
+    body {
+        background: #562d36;
+    }
+}
+@media screen and (max-width: 576px) {
+    .portfolio-items {
+        width: 100%;
+    }
+    header h1 {
+        position:absolute;
+        bottom: 25px;
+        left: 50px;
+        padding: 15px;
+        color: whitesmoke;
+    }
+    body {
+        background: #5e3e45;
+    }
 }
