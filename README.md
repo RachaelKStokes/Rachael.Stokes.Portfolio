@@ -7,7 +7,7 @@ I created a professional portfolio with my own code, in order to test my skills.
 
 ![Screenshot of top half of portfolio website](assets/images/portfolioscreenshot1.png)
 
-![Screenshot of bottom half of portfolio website](assets/screenshots/portfolioscreenshot2.png)
+![Screenshot of bottom half of portfolio website](\assets\images\portfolioscreenshot2.png)
 
 ## URL 
 
