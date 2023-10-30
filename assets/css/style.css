@@ -181,8 +181,10 @@ body{
 }
 @media screen and (max-width: 576px) {
     .portfolio-items {
-        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
+    
     header h1 {
         position:absolute;
         bottom: 25px;
